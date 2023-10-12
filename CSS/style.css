@@ -1,0 +1,209 @@
+@import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+body, h1 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 84px;
+    background-color: #007765;
+    margin: 0%;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+.container__header {
+    width: 1074px;
+    height: 84px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 8px;
+    
+}
+
+.problem__text,
+.team__text {
+    margin: 0;
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.body__pipernet {
+    background-image:  url(../IMG/01.png);
+    height: 403px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.pipernet__text {
+    font-size: 72px;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.body__problem {
+    background-color: #EEEEEE;
+    height: 719px;
+}
+
+.text__beneath {
+    font-size: 32px;
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.body__we {
+    background-image:  url(../IMG/02.png);
+    height: 483px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.we__text {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+}
+
+.body__introducing {
+    background-color: white;
+    height: 604px;
+    padding: 289;
+    
+}
+
+.container {
+    height: 604px;
+    width: 1219px;
+    padding-top: 48px;
+    margin: 0 auto;
+}
+
+.text__beneath,
+.introducing__text {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.introducing__h {
+    margin: 0;
+    color: #007765;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.PiedPiperCoin__logo {
+    float: left;
+    padding-right: 48px;
+}
+
+.introducing__text {
+    font-size: 32px;
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body__team {
+    background-color: #EEEEEE;
+    height: 845px;
+}
+
+.team__row {
+    width: 1074px;
+    height: 604px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row__first {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.row__second {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.item-team {
+    width: 350px;
+    height: 283px;
+    
+}
+
+.item-team__name {
+    color: #007765;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.item-team__text {
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #333333;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__text {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
